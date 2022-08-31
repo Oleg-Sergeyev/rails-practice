@@ -1,1 +1,1 @@
-sneakers work Processor --require get_passports_status.rb
+sneakers work Passport --require get_passports_status.rb
