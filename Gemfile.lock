@@ -179,7 +179,16 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    serverengine (2.0.7)
+      sigdump (~> 0.2.2)
     set (1.0.2)
+    sigdump (0.2.4)
+    sneakers (2.11.0)
+      bunny (~> 2.12)
+      concurrent-ruby (~> 1.0)
+      rake
+      serverengine (~> 2.0.5)
+      thor
     sorted_set (1.0.3)
       rbtree
       set (~> 1.0)
@@ -232,6 +241,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.3, >= 7.0.3.1)
   selenium-webdriver
+  sneakers (~> 2.3, >= 2.3.5)
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
